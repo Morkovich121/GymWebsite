@@ -1,0 +1,187 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-h {
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.right-h {
+    flex: 1;
+    background-color: var(--orange);
+}
+
+.the-best-part {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 4rem;
+    background-color: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.the-best-part>span {
+    z-index: 2;
+}
+
+.the-best-part>div {
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+.ideal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-overflow: inherit;
+}
+
+.ideal-body>div:nth-of-type(3) {
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.gym-info {
+    display: flex;
+    gap: 2rem;
+}
+
+.gym-info>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.gym-info>div>span:nth-of-type(1) {
+    color: white;
+    font-size: 2rem;
+}
+
+.gym-info>div>span:nth-of-type(2) {
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-buttons>.btn {
+    width: 8rem;
+    color: white;
+}
+
+.hero-buttons>:nth-child(1) {
+    background-color: var(--orange);
+}
+
+.hero-buttons>:nth-child(2) {
+    background-color: initial;
+    border: 2px solid var(--orange);
+}
+
+.right-h-info{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+.heart-rate>img{
+    width:2rem;
+}
+
+.heart-rate{
+    display: flex;
+    width:fit-content;
+    position: absolute;
+    gap:1rem;
+    right:4rem;
+    top:7rem;
+    flex-direction: column;
+    background-color: var(--darkGrey);
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+.heart-rate>span:nth-of-type(1){
+    color: var(--gray);
+}
+
+.heart-rate>span:nth-of-type(2){
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.hero-image{
+    width:23rem;
+    position: absolute;
+    right:8rem;
+    top:10rem;
+}
+
+.hero-back-image{
+    position: absolute;
+    right:20rem;
+    top: 4rem;
+    width: 15rem;
+    z-index: -1;
+}
+
+.calories{
+    display:flex;
+    background-color: var(--caloryCard);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    right: 28rem;
+    top: 32rem;
+    gap:2rem;
+}
+
+.calories>img{
+    width:3rem;
+}
+
+.calories-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calories-info>span:nth-of-type(1){
+    color: var(--gray);
+}
+
+
+.calories-info>span:nth-of-type(2){
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+
