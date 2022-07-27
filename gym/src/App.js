@@ -4,6 +4,7 @@ import Programs from './components/Programs/Programs'
 import Reasons from './components/Reasons/Reasons'
 import Plans from './components/Plans/Plans'
 import Testimonials from './components/Testimonials/Testimonials'
+import Connect from './components/Connect/Connect'
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
           <Reasons/>
           <Plans/>
           <Testimonials/>
+          <Connect/>
+          <p></p>
+          <p></p>
     </div>
   );
 }

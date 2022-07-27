@@ -1,0 +1,52 @@
+.connect{
+    display:flex;
+    gap:10rem;
+    padding:0 2rem;
+}
+
+.left-c>hr{
+    border-radius: 20%;
+    border:2px solid var(--orange);
+    margin: -10px 0;
+    position: absolute;
+    width: 10.5rem;
+}
+
+.left-c{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.left-c>div {
+    display: flex;
+    gap: 1rem;
+}
+
+.right-c{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    display:flex;
+    gap:3rem;
+    background-color: gray;
+    padding: 1rem 2rem;
+}
+
+.email>input{
+    background-color: initial;
+    border: none;
+    color: white;
+    outline: none;
+    width:10.8rem;
+}
+
+.email>button{
+    background-color: var(--orange);
+    color:white;
+}
