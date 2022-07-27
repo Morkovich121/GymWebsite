@@ -1,4 +1,4 @@
-.plans-header{
+.plans-header {
     color: #fff;
     display: flex;
     font-size: 3rem;
@@ -9,23 +9,23 @@
     text-transform: uppercase;
 }
 
-.plans{
+.plans {
     display: flex;
     flex-direction: column;
-    gap:4rem;
+    gap: 4rem;
     padding: 0 2rem;
     margin-top: -4rem;
     position: relative;
 }
 
-.plans-categories{
-    display:flex;
+.plans-categories {
+    display: flex;
     justify-content: center;
-    gap:3rem;
+    gap: 3rem;
     align-items: center;
 }
 
-.plan{
+.plan {
     background: var(--caloryCard);
     color: #fff;
     display: flex;
@@ -35,13 +35,13 @@
     width: 15rem;
 }
 
-.features{
+.features {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.plan>svg{
+.plan>svg {
     fill: var(--orange);
     height: 2rem;
     width: 2rem;
@@ -53,34 +53,34 @@
     transform: scale(1.1);
 }
 
-.plan:nth-child(2)>button{
-    color:var(--orange);
+.plan:nth-child(2)>button {
+    color: var(--orange);
 }
 
-.plan:nth-child(2)>svg{
-    fill:white;
+.plan:nth-child(2)>svg {
+    fill: white;
 }
 
-.plan>span:nth-of-type(1){
+.plan>span:nth-of-type(1) {
     font-size: 1rem;
     font-weight: 700;
 }
 
-.plan>span:nth-of-type(2){
+.plan>span:nth-of-type(2) {
     font-size: 3rem;
     font-weight: 700;
 }
 
-.plan>div:nth-of-type(2){
+.plan>div:nth-of-type(2) {
     font-size: .8rem;
 }
 
-.feature>img{
-    width:1rem;
+.feature>img {
+    width: 1rem;
 }
 
-.feature{
+.feature {
     display: flex;
-    gap:1rem;
+    gap: 1rem;
     align-items: center;
 }
