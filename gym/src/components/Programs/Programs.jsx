@@ -1,0 +1,30 @@
+import React from 'react'
+import './Programs.css'
+import { programsData } from '../../data/programsData'
+import RightArrow from '../../assets/rightArrow.png'
+
+const Programs = () => {
+    return (
+        <div className="programs">
+            <div className="programs-header">
+                <span className="empty-text">Explore our</span>
+                <span className="programs-intro">Programs</span>
+                <span className="empty-text">To shape you</span>
+            </div>
+            <div className="programs-categories">
+                {programsData.map((program) => (
+                    <div className="category">
+                        {program.image}
+                        <span>{program.heading}</span>
+                        <span>{program.details}</span>
+                        <div className="join-now">
+                            <span>Join Now</span>
+                            <img src={RightArrow} alt=""></img>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
+}
+export default Programs;

@@ -46,14 +46,14 @@
 }
 
 .ideal-body {
+    color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    text-transform: uppercase;
-    color: white;
     font-size: 4.5rem;
-    font-weight: bold;
+    font-weight:bold;
+    gap: 1.5rem;
     text-overflow: inherit;
+    text-transform: uppercase;
 }
 
 .ideal-body>div:nth-of-type(3) {
