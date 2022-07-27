@@ -50,3 +50,7 @@
     background-color: var(--orange);
     color:white;
 }
+
+.email>input::placeholder{
+    color:var(--lightgray)
+}
