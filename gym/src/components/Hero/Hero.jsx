@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Hero.css';
 import Header from '../Header/Header';
 import Heart from '../../assets/heart.png';
@@ -7,11 +7,9 @@ import HeroBackImage from '../../assets/hero_image_back.png';
 import Calories from '../../assets/calories.png';
 
 const Hero = () => {
-
-    const [transition] = useState({ type: 'spring', duration: 3 })
     
     return (
-        <div className="hero">
+        <div className="hero" id="hero">
             <div className="blur hero-blur"></div>
             <div className="left-h">
                 <Header />

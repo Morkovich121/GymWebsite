@@ -62,3 +62,16 @@
 .join-now>img{
     width:1rem;
 }
+
+@media screen and (max-width:768px) {
+    .programs-header{
+        flex-direction: column;
+        font-size: x-large;
+        gap:1rem;
+        align-items: center;
+    }
+
+    .programs-categories{
+        flex-direction: column;
+    }
+}

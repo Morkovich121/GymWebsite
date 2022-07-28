@@ -1,15 +1,14 @@
 import React from 'react'
 import './Plans.css'
 import { plansData } from '../../data/plansData'
-import RightArrow from '../../assets/rightArrow.png'
 import whiteTick from '../../assets/whiteTick.png'
 
 const Plans = () => {
     return (
-        <div className="plans">
+        <div className="plans" id="plans">
             <div className="blur plans-blur"></div>
             <div className="blur plans-blur"></div>
-            <div className="plans-header">
+            <div className="programs-header mr">
                 <span className="empty-text">ready to start</span>
                 <span className="programs-intro">your journey</span>
                 <span className="empty-text">now withus</span>

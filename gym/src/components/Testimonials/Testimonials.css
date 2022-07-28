@@ -90,3 +90,42 @@
     height: 20rem;
     z-index: 2;
 }
+
+@media screen and (max-width:768px) {
+    .testimonials{
+        flex-direction: column;
+        gap:2rem;
+    }
+
+    .left-part>:nth-child(2), .left-part>:nth-child(3){
+        font-size: xx-large;
+    }
+
+    .right-part{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+    }
+
+    .right-part>:nth-child(1),.right-part>:nth-child(2){
+        display:none;
+        position: relative;
+    }
+
+    .right-part>img{
+        top:0;
+        right: 0;
+        position: relative;
+        align-self: center;
+    }
+
+    .right-part>.arrows{
+        display:flex;
+        position: relative;
+        bottom: 0;
+        left:0;
+
+    }
+}
