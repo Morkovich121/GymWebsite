@@ -84,3 +84,17 @@
     gap: 1rem;
     align-items: center;
 }
+
+.plans-blur:nth-of-type(1){
+    width:23rem;
+    height: 32rem;
+    top:2rem;
+    left:4rem;
+}
+
+.plans-blur:nth-of-type(2){
+    width:23rem;
+    height: 32rem;
+    top:7rem;
+    right:4rem;
+}

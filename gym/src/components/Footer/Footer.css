@@ -25,3 +25,22 @@
 .feedback>img{
     width: 10rem;
 }
+
+.footer-blur:nth-of-type(1){
+    height: 12rem;
+    width: 26rem;
+    margin-left:14rem;
+    margin-top: 8rem;
+    filter:blur(140px);
+    -webkit-filter: blur(140px);
+}
+
+.footer-blur:nth-of-type(2){
+    background: rgb(183, 45, 45);
+    height: 12rem;
+    width: 26rem;
+    margin-left:54rem;
+    margin-top: 8rem;
+    filter:blur(140px);
+    -webkit-filter: blur(140px);
+}

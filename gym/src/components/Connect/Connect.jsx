@@ -1,8 +1,22 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import './Connect.css'
-import { useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Connect = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_inzphbm', 'service_inzphbm', form.current, 'fawRxbyAo8pAnDOln')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+    
     return (
         <div className='connect' id='connect'>
             <div className="left-c">
@@ -17,10 +31,10 @@ const Connect = () => {
                 </div>
             </div>
             <div className="right-c">
-                <div className="email">
+                <form ref={form} className="email" onSubmit={sendEmail}>
                     <input type="email" name="user_email" id="user_email" placeholder='Enter your Email Address here...' />
                     <button type="submit" className='btn'>Join now</button>
-                </div>
+                </form>
             </div>
         </div>
     )

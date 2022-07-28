@@ -1,17 +1,20 @@
-import React from 'react'
-import './Hero.css'
-import Header from '../Header/Header'
-import Heart from '../../assets/heart.png'
-import HeroImage from '../../assets/hero_image.png'
-import HeroBackImage from '../../assets/hero_image_back.png'
-import Calories from '../../assets/calories.png'
+import React, {useState} from 'react';
+import './Hero.css';
+import Header from '../Header/Header';
+import Heart from '../../assets/heart.png';
+import HeroImage from '../../assets/hero_image.png';
+import HeroBackImage from '../../assets/hero_image_back.png';
+import Calories from '../../assets/calories.png';
 
 const Hero = () => {
+
+    const [transition] = useState({ type: 'spring', duration: 3 })
+    
     return (
         <div className="hero">
+            <div className="blur hero-blur"></div>
             <div className="left-h">
                 <Header />
-
                 {/*The best gym part*/}
                 <div className="the-best-part">
                     <div></div>
@@ -58,7 +61,7 @@ const Hero = () => {
             <div className="right-h">
 
                 <div className='right-h-info'>
-                    <button className="btn">Join Now</button>
+                    <a href='#connect'><button className="btn">Join Now</button></a>
                 </div>
 
                 {/*Heart rate part*/}
