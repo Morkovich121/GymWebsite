@@ -28,8 +28,7 @@ const Header = () => {
                 <li onClick={() => setMenuOpened(false)}><a href='#reasons'>Why us</a></li>
                 <li onClick={() => setMenuOpened(false)}><a href='#plans'>Plans</a></li>
                 <li onClick={() => setMenuOpened(false)}><a href='#testimonials'>Testimonials</a></li>
-            </ul>};
-
+            </ul>}
         </div>
     )
 }
